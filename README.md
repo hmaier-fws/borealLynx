@@ -6,7 +6,7 @@ Currently, users upload a .csv file that at a minimum contains unprojected GPS f
 A summary table is produced that includes includes refuges and fist and last fix
 dates, by collarID. Users can subset the data by date range, collarID, and Refuge.
 
-Next steps includes:
+Next steps include:
 - Create a home range map viewer
 - Develop a report generator using markdown that includes information on 
 fix success, movement status (resident vs. migratory behavior), summary movement 
