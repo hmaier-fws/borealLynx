@@ -6,10 +6,13 @@ Currently, users upload a .csv file that at a minimum contains unprojected GPS f
 A summary table is produced that includes includes refuges and fist and last fix
 dates, by collarID. Users can subset the data by date range, collarID, and Refuge.
 
-Next steps include:
-- Developing a home range map viewer and the ability to generate
-a report using markdown that includes information on fix success, movement status
-(resident vs. migratory behavior), summary movement statistics, and live/dead status.
+Next steps includes:
+- Create a home range map viewer
+- Develop a report generator using markdown that includes information on 
+fix success, movement status (resident vs. migratory behavior), summary movement 
+statistics, and live/dead status.
+- Automate the transfer/upload of GPS collar data from Iridium (Telonics) to the Shiny 
+app through a FWS server.
 
 The United States Fish and Wildlife Service (FWS) GitHub project code is provided on 
 an "as is" basis and the user assumes responsibility for its use. FWS has relinquished 
