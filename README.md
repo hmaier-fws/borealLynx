@@ -16,11 +16,3 @@ Currently, users upload a .csv file that at a minimum contains unprojected GPS f
 (lat/long), collarIDs and dates. See "Data.csv" as an example. These are read in and mapped using leaflet.
 A summary table is produced that includes includes refuges and fist and last fix
 dates, by collarID. Users can subset the data by date range, collarID, and Refuge.
-
-Next steps include:
-- Create a home range map viewer
-- Develop a report generator using markdown that includes information on 
-fix success, movement status (resident vs. migratory behavior), summary movement 
-statistics, and live/dead status.
-- Automate the transfer/upload of GPS collar data from Iridium (Telonics) to the Shiny 
-app through a FWS server.
